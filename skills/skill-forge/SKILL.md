@@ -65,6 +65,16 @@ scripts/adversarial.sh <dir-mcp> --mcp  # suite adversarial de MCPs (8 checks)
 
 Exit code 0 = verde. Cualquier FAIL = no terminado.
 
+## Integración con /workflow
+
+En programas `/workflow` con misiones que producen skills o MCPs, este skill es
+el **proveedor del gate**: `validate.sh` + `adversarial.sh` en verde (exit 0),
+citados con números en la firma (`GATE_M<n>: GO — adversarial: 12/12 PASS`).
+Un informe cualitativo no firma GO. Las copias oficiales de skill-forge viven en:
+- Pi: `~/.pi/agent/skills/skill-forge`
+- Compartido cross-harness: `~/.agents/skills/skill-forge`
+- Fuente canónica: github.com/manu-alvarez/SKILL-skill-forge (`skills/skill-forge`)
+
 ## Detalle del estándar verificado con probes contra `skills-ref`
 
 Ver `references/standard.md` para las reglas exactas (confirmadas empíricamente,
