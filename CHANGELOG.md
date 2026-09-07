@@ -20,5 +20,5 @@ y [SemVer](https://semver.org/lang/es/).
   incluidas sondas que verifican que el validador oficial aplica el estándar.
 - `references/standard.md`: reglas del estándar verificadas empíricamente
   con probes contra `skills-ref`.
-- `docs/DEVELOPMENT.md`: proceso de desarrollo, incidentes cazados por la
-  suite y resultados de verificación.
+- `docs/DEVELOPMENT.md`: diseño, metodología de validación, casos de borde
+  detectados y resultados de verificación.

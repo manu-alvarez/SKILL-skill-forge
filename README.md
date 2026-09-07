@@ -87,8 +87,8 @@ Exit code 0 = verde. Cualquier `FAIL` = no terminado.
 | Demo end-to-end: forge de skill + suite | ✅ 12/12 PASS |
 | Demo end-to-end: forge de MCP + suite | ✅ 8/8 PASS (initialize, tools/list, echo roundtrip, robustez) |
 
-Detalle del proceso de desarrollo, incidentes cazados por la suite y decisiones de
-diseño: [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md).
+Diseño, metodología de validación y casos de borde detectados:
+[`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md).
 
 ## Compatibilidad
 
