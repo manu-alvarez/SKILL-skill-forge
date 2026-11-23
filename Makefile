@@ -20,7 +20,7 @@ adversarial: ## suite adversarial (12 checks)
 
 test: validate adversarial ## todo lo anterior + demo e2e auto-limpia
 	@echo "== demo e2e: skill =="
-	bash $(FORGE)/forge-skill.sh demo-e2e "Usar SIEMPRE que se pruebe el forge en modo skill. Demo temporal de validacion end to end." /tmp/demo-e2e-skill
+	bash $(FORGE)/forge-skill.sh demo-e2e-skill "Usar SIEMPRE que se pruebe el forge en modo skill. Demo temporal de validacion end to end." /tmp/demo-e2e-skill
 	bash $(FORGE)/validate.sh /tmp/demo-e2e-skill
 	bash $(FORGE)/adversarial.sh /tmp/demo-e2e-skill
 	rm -rf /tmp/demo-e2e-skill
