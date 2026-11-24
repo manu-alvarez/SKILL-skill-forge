@@ -2,7 +2,7 @@ name: Skill Forge acceptance
 
 on:
   push:
-    branches: [ci/verify-skill-forge-20261123]
+    branches: [main]
   pull_request:
     branches: [main]
 
